@@ -1,0 +1,68 @@
+
+.card-container {
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    gap: 16px;
+     
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.card{
+    height: 16rem;
+    width: 30rem;
+    border-radius: 15px;
+    padding: 0.7rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background-image:  
+    linear-gradient(to top, rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, .2),
+     rgba(255, 255, 255, 0));
+}
+
+/* CSS AVALIAÇÃO */
+.av {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    color: white;
+}
+
+.av > img {
+    width: 2rem;
+}
+
+
+/* CSS PARTE DEBAIXO DO CARD */
+.mine-footer {
+    margin-top: 7.8rem;
+    line-height: 37px;
+}
+
+.mine-footer > h1 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: white;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.data > img {
+    width: 2rem;
+}
+

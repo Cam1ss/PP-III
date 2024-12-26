@@ -9,7 +9,7 @@ section {
     linear-gradient(to right, rgba(0, 0, 0, 0.88),
     rgba(0, 0, 0, .7),
      rgba(255, 255, 255, 0)),
-     url('../img/banner.jpg');
+     url('/public/img/banner.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,10 +60,10 @@ section {
     align-items: center;
     justify-content: center;
     background-color: #F9D17B;
-    width: 4rem;
-    height: 3.7rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 30px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 
