@@ -1,30 +1,65 @@
-
 .card-container {
     margin-top: 6rem;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around;
+    justify-content: center; /* Centraliza os slides horizontalmente */
     gap: 16px;
-     
+    overflow: hidden; /* Impede o desbordamento de conteúdo fora da área visível */
 }
 
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
-
-.card{
+.card {
     height: 16rem;
     width: 30rem;
     border-radius: 15px;
     padding: 0.7rem 1.4rem;
     display: flex;
     flex-direction: column;
-    background-image:  
-    linear-gradient(to top, rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, .2),
-     rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+    background-size: cover;
+    background-position: center;
 }
+
+/* Container do swiper */
+.swiper {
+    width: 100%; /* Garante que o swiper ocupe toda a largura disponível */
+    height: 100%; /* Garante que o swiper ocupe toda a altura disponível */
+    display: flex; /* Usa flexbox para organizar os slides */
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem; /* Centraliza os slides horizontalmente */
+}
+
+/* Slide do swiper */
+.swiper-slide {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo de cada slide */
+    align-items: center; /* Alinha os itens do slide ao centro */
+    width: 30rem; /* Define o tamanho fixo da carta */
+    margin: 3rem -0.3rem;
+}
+
+:root {
+    --swiper-theme-color: #000000;
+    /*
+    --swiper-preloader-color: var(--swiper-theme-color);
+    --swiper-wrapper-transition-timing-function: initial;
+    */
+  }
+
+  .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 1rem));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 1rem));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #fcdd9b);
+    opacity: 50;
+  }
+
+.swiper-pagination-bullet-active {
+    opacity: 100%;
+    width: 1rem;
+    height: 1rem;
+    background: #FA9426;
+  }
 
 /* CSS AVALIAÇÃO */
 .av {
@@ -39,7 +74,6 @@
 .av > img {
     width: 2rem;
 }
-
 
 /* CSS PARTE DEBAIXO DO CARD */
 .mine-footer {
@@ -65,4 +99,3 @@
 .data > img {
     width: 2rem;
 }
-
