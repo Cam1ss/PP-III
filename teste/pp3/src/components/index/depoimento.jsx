@@ -1,4 +1,4 @@
-import '../../style/depoimento.css'
+
 
 export default (props) => {
 

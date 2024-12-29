@@ -1,7 +1,10 @@
 import * as React from "react";
 import './style/header.css'
+import './style/footer.css'
 import './style/index.css'
+import './style/depoimento.css'
 
+import Footer from './components/footer.js'
 import Depoimentos from './components/index/depoimentos.jsx';
 import AutoScroll from './components/index/AutoScrollCarrossel.jsx';
 import Header from './components/header.js';
@@ -36,14 +39,19 @@ export default () => (
         <Titulo nome="guia">
             <Guia></Guia>
         </Titulo>
+    </section>
 
         <AutoScroll></AutoScroll>
 
+    <section>
         <Titulo nome="depoimentos">
             <Depoimentos></Depoimentos>
+
+            <a className="btn-verMais">ver mais</a>
         </Titulo>
-       
     </section>
+
+    <Footer></Footer>
     </div>
 
 );

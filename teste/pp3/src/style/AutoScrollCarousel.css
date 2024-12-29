@@ -11,8 +11,10 @@
   }
   
   .carousel-content img {
-    width: 30%; /* Ajuste para mostrar 4 imagens ao mesmo tempo */
+    width: 25%;
     height: auto;
     flex-shrink: 0;
   }
+
+
   

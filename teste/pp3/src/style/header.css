@@ -18,8 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 8rem;
-    width: 100vw;
+    padding: 1rem 7rem 1rem 8rem;
+    width: 99vw;
 }
 
 .menu-list {
@@ -40,26 +40,26 @@ body {
     font-size: 1.1rem;
     cursor: pointer;
     color: black;
-    position: relative; /* Necessário para o pseudo-elemento */
+    position: relative; 
 }
 
-/* Adiciona a barrinha dinâmica */
+
 .item-link::after {
     content: "";
     position: absolute;
-    bottom: -2px; /* Ajusta a posição da barrinha */
+    bottom: -2px; 
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #F67F00; /* Cor da barrinha */
+    background-color: #F67F00;
     transition: width 0.3s ease-in-out;
 }
 
 .item-link:hover::after {
-    width: 100%; /* Expande a barrinha ao passar o mouse */
+    width: 100%; 
 }
 
-/* Cor do texto ao passar o mouse */
+
 .item-link:hover {
     color: #F67F00;
 }

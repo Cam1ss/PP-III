@@ -53,7 +53,7 @@
 }
 
 .nota-user > img {
-    width: 2.2rem;
+    width: 2rem;
     position: absolute;
 }
 
@@ -65,4 +65,27 @@
 .two {
     bottom: 1rem;
     right: 1rem;
+}
+
+.btn-verMais {
+    margin-top: 1.5rem;
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    color: #9b6245;
+    border: 2px solid #9b6245;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    width: auto; 
+    padding: 0.2rem 1rem; /* Ajusta o espaçamento interno para dar mais controle sobre o tamanho */
+    margin-left: auto; 
+ 
+}
+
+.btn-verMais:hover {
+    cursor: pointer;
+    background-color: #9b6245;
+    color: white;
 }
