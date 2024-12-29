@@ -1,0 +1,18 @@
+.carousel-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .carousel-content {
+    display: flex;
+  }
+  
+  .carousel-content img {
+    width: 30%; /* Ajuste para mostrar 4 imagens ao mesmo tempo */
+    height: auto;
+    flex-shrink: 0;
+  }
+  

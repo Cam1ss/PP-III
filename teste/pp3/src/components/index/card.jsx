@@ -24,7 +24,7 @@ export default () => {
             <div
               className="card"
               style={{
-                backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), url(${festival.imagemFundo})`,
+                backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), url(${festival.imagemFundo})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}

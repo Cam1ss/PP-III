@@ -25,7 +25,7 @@
     display: flex; /* Usa flexbox para organizar os slides */
     justify-content: center;
     align-items: center;
-    margin: 5rem 0rem; /* Centraliza os slides horizontalmente */
+    margin: 6rem 0rem; /* Centraliza os slides horizontalmente */
 }
 
 /* Slide do swiper */
@@ -45,6 +45,54 @@
     */
   }
 
+  .swiper-button-next,.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--swiper-theme-color); /* Adiciona a borda sólida */
+    border-radius: 30px; /* Opcional: arredonda os cantos da borda */
+    color: var(--swiper-navigation-color,var(--swiper-theme-color))
+}
+
+.swiper-button-prev:after,.swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+}
+
+.swiper-button-next,.swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset,10px);
+    left: 75.7rem;
+}
+
+.swiper-button-next:after,.swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.swiper-button-prev,.swiper-rtl .swiper-button-next {
+    left: 0.2px;
+    right: auto;
+}
+
+.swiper-horizontal {
+  
+    left: 0.5rem;
+    touch-action: none;
+    width: 80rem;
+    align-items: center;
+  }
+
+
   .swiper-pagination-bullet {
     width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 1rem));
     height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 1rem));
@@ -52,6 +100,17 @@
     border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
     background: var(--swiper-pagination-bullet-inactive-color, #fcdd9b);
     opacity: 50;
+  }
+
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    display: flex;
+    justify-content: center;
   }
 
 .swiper-pagination-bullet-active {
