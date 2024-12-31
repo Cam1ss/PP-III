@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundoAboutUS{
+ width: 99.5vw;
+ height: 60vh;
+ position: relative;
+ left: -0.2vw;
+}
+
+form{
+    color: rgb(0, 25, 39);
+    width: 50vw;
+    font-weight: 500;
+    background-color:rgb(196, 43, 43);
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 20px;
+    border-radius: 3vh;
+    position: absolute;
+    bottom: 5vh;
+}
+
+.descricao{
+    font-weight: 400;
+    width: 45vw;
+    position: relative;
+    left: 2vw;
+    font-family: "Poppins", sans-serif;
+}
+
+input{
+    width: 8vw;
+    padding: 8px;
+    height: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-size:smaller;
+    border-radius: 12px;
+    border: 1px solid rgb(252, 191, 73);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4.5vw;
+}
+
+p{
+    color:rgb(234, 226, 183);
+}
+
+.n{  
+    color:rgb(234, 226, 183);
+    position: relative;
+    left: -0.2vw;
+}
+
+textarea{
+    height: 40vh;
+    width: 40vw;
+    padding: 4px;
+    font-family: "Poppins", sans-serif;
+}
+
+button{
+    padding: 10px;
+    width: 5vw;
+    margin-top: 2vh;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid rgba(247, 127, 0,1);
+    color:rgb(252, 191, 73);
+    background-color: rgb(12, 32, 41);
+}
+
+button:hover{
+    transition: 400ms;
+    background-color: rgb(16, 68, 94);
+    cursor: pointer; 
+}
+
