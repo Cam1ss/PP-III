@@ -1,6 +1,5 @@
-import Card from '../index/card'
-import '../../style/card.css'
-import '../../style/card.css'
+import Card from '../../components/index/card'
+import '../../style/Home/card.css'
 
 
 

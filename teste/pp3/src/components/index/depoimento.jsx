@@ -17,12 +17,12 @@ export default (props) => {
                 <div className="fita" style={fita}/>
 
                 <div className="nota-user">
-                    <img className='one'src="./img/aspas-esquerda.png" alt="aspas-esquerda"></img>
+                    <img className='one'src="/img/HomeImg/aspas-esquerda.png" alt="aspas-esquerda"></img>
                     <p>{props.coment}</p>
                     
                     <h3>{ props.user} </h3>
 
-                    <img className='two' src="./img/aspas-direita.png" alt="aspas-direita"></img>
+                    <img className='two' src="/img/HomeImg/aspas-direita.png" alt="aspas-direita"></img>
                 </div>
         </div>
         );

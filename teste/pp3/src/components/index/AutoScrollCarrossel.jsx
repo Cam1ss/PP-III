@@ -1,15 +1,15 @@
 import React, { useEffect, useRef } from "react";
-import "../../style/AutoScrollCarousel.css"; // Certifique-se de criar este arquivo CSS
+import '../../style/Home/AutoScrollCarousel.css'
 
 const images = [
-    "./img/carnaval-1.jpg",
-    "./img/carnaval-2.jpg",
-    "./img/festaJunina-2.jpg",
-    "./img/festaJunina-3.jpg",
-    "./img/paratins-1.jpg",
-    "./img/paratins-2.jpg",
-    "./img/cavalhada-1.jpg",
-    "./img/cavalhada-2.jpg",
+    "/img/HomeImg/carnaval-1.jpg",
+    "/img/HomeImg/carnaval-2.jpg",
+    "/img/HomeImg/festaJunina-2.jpg",
+    "/img/HomeImg/festaJunina-3.jpg",
+    "/img/HomeImg/paratins-1.jpg",
+    "/img/HomeImg/paratins-2.jpg",
+    "/img/HomeImg/cavalhada-1.jpg",
+    "/img/HomeImg/cavalhada-2.jpg",
   ];
   
   const AutoScrollCarousel = () => {

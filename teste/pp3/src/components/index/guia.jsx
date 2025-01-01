@@ -1,6 +1,6 @@
 import React from 'react';
 import guias from '../../data/guiaDados.js';
-import '../../style/guia.css'
+import '../../style/Home/guia.css'
 
 
 

@@ -30,13 +30,13 @@ export default () => {
               }}
             >
               <div className="av">
-                <img src="/img/star.png" alt="star-icon" />
+                <img src="/img/HomeImg/star.png" alt="star-icon" />
                 <h3>{festival.nota}</h3>
               </div>
               <div className="mine-footer">
                 <h1>{festival.nome}</h1>
                 <div className="data">
-                  <img src="/img/calendario.png" alt="calendario-icon" />
+                  <img src="/img/HomeImg/calendario.png" alt="calendario-icon" />
                   <p>{festival.desc}</p>
                 </div>
               </div>

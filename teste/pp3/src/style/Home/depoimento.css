@@ -52,6 +52,10 @@
     color: #444343;
 }
 
+.nota-user > p {
+    color: #000000;
+}
+
 .nota-user > img {
     width: 2rem;
     position: absolute;

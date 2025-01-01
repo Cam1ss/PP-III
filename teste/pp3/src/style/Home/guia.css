@@ -40,6 +40,10 @@
     font-weight: 500;
 }
 
+.info > p {
+  color: black;
+}
+
   .info {
     color: black;
     padding: 8px;

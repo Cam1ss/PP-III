@@ -1,4 +1,4 @@
-import '../../style/guia.css'
+import '../../style/Home/index.css'
 
 export default (props) => {
     const modelo = {

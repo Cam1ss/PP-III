@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 export default function Header(){
     return (
          <nav className="menu">
-        <img className="logo" src="/img/logo.png" alt="logo"/>
+        <Link to="/"><img className="logo" src="/img/HomeImg/logo.png" alt="logo"/></Link>
         <ul className="menu-list">
-            <li className="item-list"><a id="home" className="item-link" href="./">home</a></li>
-            <li className="item-list"><a id="aboutUs" className="item-link" href="aboutUs.html">sobre nós</a></li>
-            <li className="item-list"><a id="fomr" className="item-link" href="formulario.html">formulário</a></li>
+            <li className="item-list"><Link className="item-link" to="/">home</Link></li>
+            <li className="item-list"><Link className="item-link" to="/aboutUs">sobre nós</Link></li>
+            <li className="item-list"><Link className="item-link" to="/formulario">formulário</Link></li>
         </ul>
     </nav>
     )
