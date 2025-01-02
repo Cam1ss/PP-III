@@ -1,0 +1,54 @@
+.guiaMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 4rem; /* Espaço entre as guias */
+    overflow: hidden;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .guia {
+    display: flex;
+    align-items: center;
+    width: 90%; 
+    max-width: 440px; 
+    gap: 2rem;
+  }
+
+  .background {
+    padding: 2rem;
+ 
+    height: 8rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background > img {
+    width: 3.7rem; 
+    height: auto;
+    object-fit: contain;
+  }
+  
+.info > h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.info > p {
+  color: black;
+}
+
+  .info {
+    color: black;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
