@@ -93,6 +93,7 @@ function App() {
           <textarea
             value={comentario} 
             onChange={(e) => setComentario(e.target.value)} 
+            placeholder='Comente aqui...'
             required 
           />
         </div>
