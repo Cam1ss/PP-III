@@ -1,15 +1,17 @@
-.section-main{
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+main{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh; /* Ocupa pelo menos a altura total da tela */
-    padding-top: 60vh; /* Compensa a altura da imagem de fundo */
+    min-height: 100vh; 
+
     box-sizing: border-box;
 }
 
 .fundo-01 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100%;
     height: 90vh;
     position: absolute;
@@ -17,6 +19,20 @@
     left: 0;
     z-index: 0; /* Fundo fica atrás */
     background-size: cover;
-    background-position: center;
     pointer-events: none;
+}
+
+section{
+    padding: 0rem 8rem;
+    z-index: 10;
+}
+
+.banner-sunrise {
+    margin-top: 1rem;
+    height: 11rem;
+    border-radius: 20px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
