@@ -25,7 +25,7 @@
 
 <div align="center">
 
-[![SkillIcons](https://skillicons.dev/icons?i=js,html,css,react,mongodb,figma,bootstrap,vscode)](https://skillicons.dev)<br/>
+[![SkillIcons](https://skillicons.dev/icons?i=js,html,css,react,nodejs,mongodb,figma,bootstrap,vscode)](https://skillicons.dev)<br/>
 
 </div>
 
