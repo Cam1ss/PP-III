@@ -1,0 +1,22 @@
+.section-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ocupa pelo menos a altura total da tela */
+    padding-top: 60vh; /* Compensa a altura da imagem de fundo */
+    box-sizing: border-box;
+}
+
+.fundo-01 {
+    margin-top: 3rem;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Fundo fica atrás */
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+}
