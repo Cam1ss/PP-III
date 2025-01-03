@@ -63,7 +63,11 @@ const Comments = () => {
         )}
       </div>
 
-      <a href="/">Voltar para Home</a>
+      <a className='voltar' href="/">
+      <i class="bi bi-arrow-left-square"></i>
+      <p>Voltar para Home</p>
+      </a>
+
     </div>
   );
 };
