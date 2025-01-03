@@ -1,0 +1,166 @@
+.card-container {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center; /* Centraliza os slides horizontalmente */
+    gap: 16px;
+    overflow: hidden; /* Impede o desbordamento de conteúdo fora da área visível */
+}
+
+.card {
+    height: 16rem;
+    width: 30rem;
+    border-radius: 15px;
+    padding: 0.7rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container do swiper */
+.swiper {
+    width: 100%; /* Garante que o swiper ocupe toda a largura disponível */
+    height: 100%; /* Garante que o swiper ocupe toda a altura disponível */
+    display: flex; /* Usa flexbox para organizar os slides */
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0rem; /* Centraliza os slides horizontalmente */
+}
+
+/* Slide do swiper */
+.swiper-slide {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo de cada slide */
+    align-items: center; /* Alinha os itens do slide ao centro */
+    width: 30rem; /* Define o tamanho fixo da carta */
+    margin: 3rem -0.3rem;
+}
+
+:root {
+    --swiper-theme-color: #000000;
+    /*
+    --swiper-preloader-color: var(--swiper-theme-color);
+    --swiper-wrapper-transition-timing-function: initial;
+    */
+  }
+
+  .swiper-button-next,.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--swiper-theme-color); /* Adiciona a borda sólida */
+    border-radius: 30px; /* Opcional: arredonda os cantos da borda */
+    color: var(--swiper-navigation-color,var(--swiper-theme-color))
+}
+
+.swiper-button-prev:after,.swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+}
+
+.swiper-button-next,.swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset,10px);
+    left: 75.7rem;
+}
+
+.swiper-button-next:after,.swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.swiper-button-prev,.swiper-rtl .swiper-button-next {
+    left: 0.2px;
+    right: auto;
+}
+
+.swiper-horizontal {
+  
+    left: 0.5rem;
+    touch-action: none;
+    width: 80rem;
+    align-items: center;
+  }
+
+
+  .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 1rem));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 1rem));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #fcdd9b);
+    opacity: 50;
+  }
+
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.swiper-pagination-bullet-active {
+    opacity: 100%;
+    width: 1rem;
+    height: 1rem;
+    background: #FA9426;
+  }
+
+/* CSS AVALIAÇÃO */
+.av {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    color: white;
+}
+
+.av > img {
+    width: 2rem;
+}
+
+/* CSS PARTE DEBAIXO DO CARD */
+.mine-footer {
+    margin-top: 7.8rem;
+    line-height: 37px;
+}
+
+.mine-footer > h1 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: white;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.data > p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.data > img {
+    width: 2rem;
+}
