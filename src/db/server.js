@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
-require('dotenv').config();
+const config = require('./config');
 
 // Configuração do servidor
 const app = express();
@@ -13,9 +13,8 @@ const port = 5000;
 app.use(cors()); 
 app.use(bodyParser.json());
 
-const uri = process.env.MONGO_URI;
 // Conexão com o MongoDB
-mongoose.connect(uri).then(() => {
+mongoose.connect(config.mongoURI).then(() => {
   console.log('Conectado ao MongoDB');
 }).catch((err) => {
   console.error('Erro ao conectar ao MongoDB:', err);
