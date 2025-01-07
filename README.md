@@ -38,7 +38,7 @@
 
 |⭐ CAMILA  | ⭐ ABNER |⭐ ANDERSON | ⭐ LETÍCIA | 
 | -------- | -------- | -------- | ---------- | 
-|  Fron-and |  Back-and |  Back-and |  Front-and |  
+|  Fron-end |  Back-end |  Back-end |  Front-end |  
 
 </div>
 
