@@ -52,7 +52,7 @@ function App() {
       <h2> FORMULÁRIO PARA COMENTÁRIOS </h2>
       <div class="descricao"> Envie por aqui seus comentários sobre os festivais que você frequenta ou que gostaria que estivessem no site, e sobre o projeto Festivale </div>
 
-      <form onSubmit={handleSubmit}>        
+      <form onSubmit={handleSubmit} className='form'>        
         <div class="container">
   
          <div className='caixa'>
@@ -90,14 +90,16 @@ function App() {
       
         <div className='coment'>
           <p>Sugestão/Comentário:</p>
-          <textarea
+          <div className='area'>
+            <textarea
             value={comentario} 
             onChange={(e) => setComentario(e.target.value)} 
             placeholder='Comente aqui...'
             required 
-          />
+            />
+            </div>
         </div>
-        <button type="submit">Enviar</button>
+        <button className="btn-enviar" type="submit">Enviar</button>
       </form>
       </div>
       
