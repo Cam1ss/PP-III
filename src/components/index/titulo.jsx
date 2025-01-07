@@ -13,7 +13,7 @@ export default (props) => {
     };
 
     const section = {     
-        marginTop: '11rem',
+        marginTop: '12rem',
     }
 
     return (
