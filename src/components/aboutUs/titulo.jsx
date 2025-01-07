@@ -22,7 +22,13 @@ export default (props) => {
     }
 
     const section = {     
-        marginTop: '9rem',
+        marginTop: '7rem',
+    }
+
+    const conteudo = {
+        display: "flex",
+        alignItems: 'center',
+        marginTop: '11rem'
     }
 
     return (
@@ -32,7 +38,7 @@ export default (props) => {
                <h1 style={titulo}> { props.nome} </h1>
             </div> {/* titulo */}
 
-                <div className="conteudo">
+                <div className="conteudo" style={conteudo}>
                     { props.children }
                 </div> {/* conteudo */}
         </div>

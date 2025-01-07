@@ -1,9 +1,11 @@
 /* Footer.css */
 .footer {
+  position: relative;
   background-color: #2b2929;
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  z-index: 1;
 }
 
 .footer-container {
