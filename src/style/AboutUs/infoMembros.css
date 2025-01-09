@@ -1,0 +1,154 @@
+.main-card-membros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+
+.card-membro {
+    display: flex;
+    flex-direction: column;
+    height: 29rem;
+    width: 45rem;
+    background-color: #F8F4E7;
+    border-radius: 20px;
+    padding: 1.6rem;
+    gap: 1rem;
+    box-shadow: 5px 5px 10px #F5BC7E;
+}
+
+    .card-membro > img {
+        position: relative;
+        width: 7rem;
+        top: -2rem;
+        margin-left: auto;
+        left: 5rem;
+        transform: rotate(-20deg);
+    }
+
+    .card-membro > img[src='/img/AboutUsImg/icon-abelha.png'] {
+        transform: rotate(25deg);
+    }
+    
+
+.barrinha{
+    position: absolute;
+    margin-top: 0.3rem;
+    background-color: #A87743;
+    width: 5%;
+    height: 0.4rem;
+    border-radius: 20px;
+}
+
+aside {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.info-membros{
+    margin-top: 2rem;
+    display: flex;
+    padding: 1rem 3rem;
+    box-sizing: border-box; 
+    gap: 5rem;
+    justify-content: center;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.midia {
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    background-color: #003049;
+    border-radius: 30px;
+    padding: 1px 1.8rem;
+    
+}
+
+.midia > i {
+    background-color: transparent;
+    color: #ffffff;
+    position: relative;
+    right: 1rem;
+}
+
+.contatos > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.midia > h3 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.nm {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 2rem;
+}
+
+.k{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.k > h3 {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: #823f2a;
+}
+
+.nm > p {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    text-transform: capitalize;
+
+}
+
+
+
+.hs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    position: relative;
+    right: 2rem;
+    width: 20rem;
+    top: 1rem;
+}
+
+.hs > h3 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #303030;
+}
+
+.hs > p{
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #444242;
+    width: 98%;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+

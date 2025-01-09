@@ -1,0 +1,95 @@
+.depoimentos-contain {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+}
+
+.section-dep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fita {
+    background-color: var(--fita-color, #A35858); /* Exemplo de variável */
+    width: 15rem;
+    height: 2.5rem;
+    border: 2px solid #000000;
+    position: absolute; 
+    top: -1rem; 
+    z-index: 2;
+}
+
+.nota-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEBC1;
+    width: 25rem;
+    height: 14rem;
+    border: 2px solid #000000;
+    padding: 1.5rem 1rem;
+    position: relative;
+    gap: 1rem;
+    z-index: 1;
+}
+
+
+.nota-user > p {
+    text-align: center;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    max-width: 20rem;
+    padding: 1rem 1.6rem 0 1.6rem;
+    margin: 0;
+}
+
+.nota-user > h3 {
+    color: #444343;
+}
+
+.nota-user > p {
+    color: #000000;
+}
+
+.nota-user > img {
+    width: 2rem;
+    position: absolute;
+}
+
+.one {
+    top: 1rem;
+    left: 1rem;
+}
+
+.two {
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.btn-verMais {
+    margin-top: 1.5rem;
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    color: #9b6245;
+    border: 2px solid #9b6245;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    width: auto; 
+    padding: 0.2rem 1rem; /* Ajusta o espaçamento interno para dar mais controle sobre o tamanho */
+    margin-left: auto; 
+ 
+}
+
+.btn-verMais:hover {
+    cursor: pointer;
+    background-color: #9b6245;
+    color: white;
+}
