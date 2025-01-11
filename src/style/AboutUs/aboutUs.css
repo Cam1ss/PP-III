@@ -90,3 +90,30 @@ section{
     z-index: 0; 
     background-color: #FFD782;
 }
+
+@media screen and (max-width: 2000px) {
+    .banner-sunrise {
+        width: 100%;
+        margin-left: 1rem;
+        height: 13rem;
+    }
+
+    .desc-grup > p {
+        width: 40rem;
+        font-size: 1.2rem;
+    }
+
+    .fundo-01 {
+        margin-top: 7rem;
+    }
+
+    .fundo-02 {
+        top: 130rem;
+        transform: rotate(-180deg);
+    }
+
+    .fundo-03 {
+        height: 325vh;
+        top: 180rem;
+    }
+}

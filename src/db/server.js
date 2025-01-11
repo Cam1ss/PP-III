@@ -66,6 +66,36 @@ app.get('/comments',  async (req, res) => {
     }
   });
 
+  app.delete('/api/comments/:id', async (req, res) => {
+    try {
+      const { id } = req.params; // Obtém o id do comentário a partir da URL
+  
+      // Verifica se o ID foi fornecido
+      if (!id) {
+        return res.status(400).send('ID do comentário não fornecido');
+      }
+  
+      // Tenta encontrar e excluir o comentário
+      const deletedComment = await User.findByIdAndDelete(id);
+  
+      // Se não encontrar o comentário, retorna erro
+      if (!deletedComment) {
+        return res.status(404).send('Comentário não encontrado');
+      }
+  
+      // Se o comentário for deletado com sucesso
+      res.status(200).send('Comentário excluído com sucesso!');
+    } catch (err) {
+      // Se houver um erro durante a operação
+      res.status(500).send('Erro ao excluir comentário');
+      console.error(err);
+    }
+  });
+  
+
+  
+
+
   
 // Iniciar o servidor
 app.listen(port, () => {

@@ -21,10 +21,6 @@ export default (props) => {
         fontSize: '2.5rem',
     }
 
-    const section = {     
-        marginTop: '7rem',
-    }
-
     const conteudo = {
         display: "flex",
         alignItems: 'center',
@@ -32,7 +28,7 @@ export default (props) => {
     }
 
     return (
-        <div className="section" style={section}>
+        <div className="sectionTitle" >
             <div className="Title"  style={ modelo }>
                 <img style={img} src={ props.icone }  alt={props.alt}></img>
                <h1 style={titulo}> { props.nome} </h1>

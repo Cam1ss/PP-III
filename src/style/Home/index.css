@@ -2,6 +2,11 @@ section {
     padding: 0rem 8rem;
 }
 
+.sectionTitle{
+    padding: 0rem 8rem;
+    margin-top: 7rem;
+}
+
 .banner {
    margin-top: 1rem;
     height: 30rem;
@@ -72,5 +77,11 @@ section {
     text-decoration: none;
     list-style: none;
     color: black;
+}
+
+@media screen and (max-width: 2000px) {
+    .sectionTitle{
+        margin-top: 15rem;
+    }
 }
 
