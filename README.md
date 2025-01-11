@@ -15,7 +15,7 @@
 
 <h2> 📍 :: Descrição </h2>
    
-- Em breve
+Festivale é uma ideia de site cujo propósito é reunir as principais informações acerca dos festivais brasileiro por meio de um estilo interdisciplinar, apresentando sobre o que se trata os festivais, suas origens, musicalidade e perigos que os caracterizam. Além disso, os usuários podem comentar ideias para auxiliar na evolução do projeto, realizando a conexão da nossa equipe com o público festivo ☺️. 
 
 <h2> 📷 :: Imagens do Projeto </h2>
 
