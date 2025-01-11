@@ -18,6 +18,16 @@
     background-position: center;
 }
 
+.cardMain{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;    /* Centraliza os itens verticalmente */
+    margin: 0 auto;         /* Centraliza o próprio contêiner no eixo horizontal */
+    height: 100%;           /* Garante alinhamento vertical consistente */
+    width: fit-content;     /* Ajusta a largura ao conteúdo */
+}
+
+
 /* Container do swiper */
 .swiper {
     width: 100%; /* Garante que o swiper ocupe toda a largura disponível */
