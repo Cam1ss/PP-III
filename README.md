@@ -29,6 +29,14 @@ Festivale é uma ideia de site cujo propósito é reunir as principais informaç
 
 </div>
 
+<h2> 📚 :: Bibliotecas e API </h2>
+
+<ul>
+    <li><strong>Swiper</strong>: Biblioteca para criação de carrosséis responsivos e interativos</li>
+    <li><strong>ScrollReveal</strong>: Biblioteca para criar animações baseadas em scroll</li>
+    <li><strong>Web Share API</strong>: API nativa para permitir compartilhamento direto em dispositivos que suportam essa funcionalidade</li>
+</ul>
+
 
 <h2> 🤝 :: Função dos Membros </h2>
 
