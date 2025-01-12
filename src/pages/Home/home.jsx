@@ -51,7 +51,7 @@ export default () => {
 
                     <div className="divisao">
                         <div className="barra"></div>
-                        <a href="https://github.com/Cam1ss/PP-III">
+                        <a target="_blank" href="https://github.com/Cam1ss/PP-III">
                             <i className="bi bi-github"></i>
                         </a>
                         <a onClick={compartilhamento}>
