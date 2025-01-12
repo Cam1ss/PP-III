@@ -67,7 +67,7 @@ function App() {
 
             <h2> FORMULÁRIO PARA COMENTÁRIOS </h2>
             <div className="descricao">
-              Envie por aqui seus comentários sobre os festivais que você frequenta ou que gostaria que estivessem no site, e sobre o projeto Festivale.
+              Envie por aqui seus comentários sobre os festivais que você frequenta ou que gostaria que estivessem no site, e sobre o projeto Festivale
             </div>
 
             <form onSubmit={handleSubmit} className="form">

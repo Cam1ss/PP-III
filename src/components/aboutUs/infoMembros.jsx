@@ -1,7 +1,20 @@
 import Membro from '../../components/aboutUs/membro'
 import "../../style/AboutUs/infoMembros.css"
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 export default function InfoMembros(){
+   useEffect(() => {
+      const sr = ScrollReveal({
+        origin: 'left',
+        distance: '50px',
+        duration: 1900,
+        reset: false, 
+      });
+  
+      sr.reveal('.card-membro', { interval: 200 });
+    }, []);
+
     return (  
         <div className='main-card-membros'>
          <div className='card-membro'>

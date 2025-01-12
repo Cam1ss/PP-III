@@ -1,6 +1,9 @@
 import '../../style/Home/index.css'
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 export default (props) => {
+    
     const modelo = {
         display: 'flex',
         gap: '1rem',

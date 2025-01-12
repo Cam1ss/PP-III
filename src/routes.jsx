@@ -13,7 +13,7 @@ export default function AppRoutes () {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={ <Home /> }/>
-                    <Route path="/aboutUs" element={ <AboutUs /> }/>
+                    <Route path="/sobrenos" element={ <AboutUs /> }/>
                     <Route path="/formulario" element={ <Form /> }/>
                     <Route path="/comments" element={ <Comments/>}/>
                     <Route path="/users" element={ <Users/>}/>

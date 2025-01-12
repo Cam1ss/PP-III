@@ -20,14 +20,14 @@ const Comments = () => {
       }
     };
 
-    fetchComments(); // Chama a função que faz a requisição
-  }, []); // O array vazio faz a requisição rodar uma única vez ao montar o componente
+    fetchComments(); 
+  }, []); 
 
   if (loading) {
     return <div className='loading'> 
     <div className="spinner"></div>
     <h1>Carregando comentários...</h1>
-    </div>; // Exibe uma mensagem enquanto os dados são carregados
+    </div>; 
   }
 
   return (
@@ -38,7 +38,9 @@ const Comments = () => {
 
       <div id="comments-list">
         {comments.length === 0 ? (
-          <div className='erro'><p>Nenhum comentário encontrado.</p></div>
+          <div className='erro'>
+            <p>Nenhum comentário encontrado =(</p>
+            </div>
         ) : (
           comments.map((comment, index) => (
             <div key={index} className="comment">

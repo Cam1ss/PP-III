@@ -1,7 +1,21 @@
 import Jornadas from '../../components/aboutUs/jornadas'
 import '../../style/AboutUs/jornada.css'
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 export default function Jornada(){
+    useEffect(() => {
+        const sr = ScrollReveal({
+          origin: 'bottom',
+          distance: '50px',
+          duration: 1900,
+          reset: false, 
+        });
+    
+        sr.reveal('.jornada-main', { interval: 200 });
+      }, []);
+  
+
     return (  
          <div className='jornada-main'>
             <div className="conjunto">

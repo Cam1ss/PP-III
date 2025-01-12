@@ -13,7 +13,23 @@ import Titulo from '../../components/index/titulo.jsx';
 import Guia from '../../components/index/guia.jsx';
 import Footer from '../../components/footer.js'
 
-export default () => (
+export default () => {
+    const compartilhamento = () => {
+        if (navigator.share) {
+            navigator.share({
+                title: 'Festivais Brasileiros',
+                text: 'Explore os maiores festivais do Brasil! De Carnaval a Parintins, descubra música, cultura e tradições em eventos inesquecíveis.',
+                url: 'http://localhost:3000/', 
+            })
+            .then(() => console.log('Compartilhamento realizado com sucesso!'))
+            .catch((error) => console.error('Erro ao compartilhar:', error));
+        } else {
+            alert('O compartilhamento não é suportado neste dispositivo ou navegador.');
+        }
+    };
+
+
+    return(
     <>
         <HelmetProvider>
             <div className="App">
@@ -38,7 +54,7 @@ export default () => (
                         <a href="https://github.com/Cam1ss/PP-III">
                             <i className="bi bi-github"></i>
                         </a>
-                        <a>
+                        <a href="#" onclick={compartilhamento}>
                             <i className="bi bi-share"></i>
                         </a>
                     </div> {/* divisao */}
@@ -59,5 +75,6 @@ export default () => (
             </div>
         </HelmetProvider>
     </>
+    )
 
-);
+};

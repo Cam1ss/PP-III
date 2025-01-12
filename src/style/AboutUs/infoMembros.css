@@ -36,7 +36,7 @@
     position: absolute;
     margin-top: 0.3rem;
     background-color: #A87743;
-    width: 4%;
+    width: 10%;
     height: 0.4rem;
     border-radius: 20px;
 }
@@ -64,6 +64,7 @@ aside {
     gap: 0.5rem;
 }
 
+
 .midia {
     width: 12rem;
     display: flex;
@@ -84,6 +85,11 @@ aside {
 .contatos > a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.midia:hover{
+    background-color: #021c2a;
+    cursor: pointer;
 }
 
 .midia > h3 {
@@ -152,13 +158,4 @@ aside {
     padding: 0.5rem;
 }
 
-@media screen and (max-width: 2000px) {
-    .main-card-membros {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15rem;
-        margin-bottom: 5rem;
-    }
-}
+

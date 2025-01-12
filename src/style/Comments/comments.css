@@ -17,7 +17,15 @@
 }
 
 .erro {
-    height: 100vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.erro > p {
+    color: #ffffff;
+    font-size: 2.5rem;
 }
 
 .main-container > h1 {

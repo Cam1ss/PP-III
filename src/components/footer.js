@@ -6,7 +6,7 @@ export default function Footer(){
          <div className="footer-container">
          <ul className="menu-footer">
             <li className="item"><Link className="item-l" to="/">home</Link></li>
-            <li className="item"><Link className="item-l" to="/aboutUs">sobre nós</Link></li>
+            <li className="item"><Link className="item-l" to="/sobrenos">sobre nós</Link></li>
             <li className="item"><Link className="item-l" to="/formulario">formulário</Link></li>
         </ul>
           <img className="footer-logo" src="/img/HomeImg/sun.png"></img>
