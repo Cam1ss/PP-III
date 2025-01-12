@@ -25,7 +25,7 @@ Festivale é uma ideia de site cujo propósito é reunir as principais informaç
 
 <div align="center">
 
-[![SkillIcons](https://skillicons.dev/icons?i=js,html,css,react,nodejs,mongodb,figma,bootstrap,vscode)](https://skillicons.dev)<br/>
+[![SkillIcons](https://skillicons.dev/icons?i=js,html,css,react,nodejs,php,mongodb,figma,bootstrap,vscode)](https://skillicons.dev)<br/>
 
 </div>
 
