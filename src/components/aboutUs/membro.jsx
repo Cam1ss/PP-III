@@ -46,7 +46,27 @@ export default function InfoMembros(props){
                 <div className="k">
                         <h3>{props.idioma2 ? "idiomas :" : "idioma :"}</h3>
                     </div>
-                    <p>{[props.idioma1, props.idioma2].join(" ")}</p>
+                    
+                        <p>
+                            <span style={{ display: "inline-flex", alignItems: "center", marginRight: "15px" }}>
+                                <img 
+                                    src={props.bandeira1} 
+                                    alt={`Bandeira de ${props.idioma1}`} 
+                                    style={{ width: "23px", marginRight: "5px" }} 
+                                />
+                                {props.idioma1}
+                            </span>
+                            {props.idioma2 && (
+                                <span style={{ display: "inline-flex", alignItems: "center" }}>
+                                    <img 
+                                        src={props.bandeira2} 
+                                        alt={`Bandeira de ${props.idioma2}`} 
+                                        style={{ width: "23px", marginRight: "5px" }} 
+                                    />
+                                    {props.idioma2}
+                                </span>
+                            )}
+                        </p>
                 </div>
 
                 <div className="hs">
