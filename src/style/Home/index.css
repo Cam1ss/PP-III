@@ -49,6 +49,7 @@ section {
     gap: 1.7rem;
 }
 
+
 .barra {
     width: 93%;
     background-color: black;
@@ -65,6 +66,7 @@ section {
     height: 3rem;
     border-radius: 30px;
     font-size: 1.4rem;
+
 }
 
 
@@ -73,6 +75,7 @@ section {
     text-decoration: none;
     list-style: none;
     color: black;
+    cursor: pointer;
 }
 
 

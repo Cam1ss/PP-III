@@ -18,8 +18,8 @@ export default () => {
         if (navigator.share) {
             navigator.share({
                 title: 'Festivais Brasileiros',
-                text: 'Explore os maiores festivais do Brasil! De Carnaval a Parintins, descubra música, cultura e tradições em eventos inesquecíveis.',
-                url: 'http://localhost:3000/', 
+                text: 'Explore os maiores festivais do Brasil! Descubra música, cultura, cuidados e tradições em eventos inesquecíveis.',
+                url: 'http://localhost:3000/#',  
             })
             .then(() => console.log('Compartilhamento realizado com sucesso!'))
             .catch((error) => console.error('Erro ao compartilhar:', error));
@@ -27,14 +27,14 @@ export default () => {
             alert('O compartilhamento não é suportado neste dispositivo ou navegador.');
         }
     };
-
+    
 
     return(
     <>
         <HelmetProvider>
             <div className="App">
                 <Helmet>
-                    <title>Home</title>
+                    <title>Festivale</title>
                 </Helmet>
                 <Header />
                 <section>
@@ -54,9 +54,10 @@ export default () => {
                         <a href="https://github.com/Cam1ss/PP-III">
                             <i className="bi bi-github"></i>
                         </a>
-                        <a href="#" onclick={compartilhamento}>
+                        <a onClick={compartilhamento}>
                             <i className="bi bi-share"></i>
                         </a>
+
                     </div> {/* divisao */}
 
                     <Carrossel />
