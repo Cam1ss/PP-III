@@ -5,6 +5,7 @@ import AboutUs from "./pages/AboutUs/aboutUs"
 import Form from "./pages/Form/form"
 import Comments from  "./pages/Comments/comments"
 import Users from  "./pages/Users/Users"
+import Festival from  "./pages/Festivais/festival"
 
 
 export default function AppRoutes () {
@@ -17,6 +18,7 @@ export default function AppRoutes () {
                     <Route path="/formulario" element={ <Form /> }/>
                     <Route path="/comments" element={ <Comments/>}/>
                     <Route path="/users" element={ <Users/>}/>
+                    <Route path="/festival" element={ <Festival/>}/>
                 </Routes>
             </BrowserRouter>
         </HelmetProvider>
