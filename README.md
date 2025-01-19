@@ -44,7 +44,7 @@ Festivale é uma ideia de site cujo propósito é reunir as principais informaç
 
 <h2> 🤝 :: Função dos Membros </h2>
 
-</div>
+
 
 <div align="center">
 
@@ -56,4 +56,6 @@ Festivale é uma ideia de site cujo propósito é reunir as principais informaç
 
 
 ![Static Badge](https://img.shields.io/badge/STATUS-EM%20ANDAMENTO-brightgreen?style=for-the-badge&color=yellow)
+
+</div>
 
