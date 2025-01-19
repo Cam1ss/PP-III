@@ -2,14 +2,14 @@
 
 <h1> 💡 Práticas Proficionais III 💡 </h1>
 
-<img width="80%" src="https://github.com/Cam1ss/Projeto_Apple_Academy/assets/125037138/25492536-7b89-4607-a8c0-b29a59c15966">
+<img width="100%" src="https://github.com/user-attachments/assets/d4d79245-468f-47d4-a9fe-6901e26706e8">
 
 <a href="https://github.com/Cam1ss" target="_self" rel="external">Camila Braúna</a> 
   • <a href="https://github.com/frsmth" target="_self" rel="external">Antônio Abner</a> •
     <a href="https://github.com/TheAnders007" target="_self" rel="external">Anderson Maia</a> • 
     <a href="https://github.com/mareshbard" target="_self" rel="external">Letícia Vitória</a>
 
-</div>
+
 
 <div align="left">
 
@@ -19,7 +19,11 @@ Festivale é uma ideia de site cujo propósito é reunir as principais informaç
 
 <h2> 📷 :: Imagens do Projeto </h2>
 
-- Em Breve
+<div align="center">
+
+<img width="80%" src="https://github.com/user-attachments/assets/020cd4ed-eb32-4b25-98e1-5e5e88b148be">
+
+</div>
 
 <h2> 💻 :: Ferramentas Utilizadas </h2>
 
