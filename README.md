@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1> 💡 Práticas Proficionais III 💡 </h1>
+<h1>  Práticas Proficionais III 💡 </h1>
 
 <img width="100%" src="https://github.com/user-attachments/assets/d4d79245-468f-47d4-a9fe-6901e26706e8">
 
