@@ -27,6 +27,18 @@
     width: fit-content;     /* Ajusta a largura ao conteúdo */
 }
 
+.cardMain > a {
+    text-decoration: none;
+}
+
+.card-container > a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* Container do swiper */
 .swiper {

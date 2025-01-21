@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import festivais from '../../data/cardDados.js'; // Dados dos festivais
+import { Link } from 'react-router-dom';
 
 export default () => {
   return (
@@ -21,7 +22,7 @@ export default () => {
       {festivais.length > 0 &&
         festivais.map((festival) => (
           <SwiperSlide key={festival.id}>
-            <div
+              <Link to={festival.link}><div
               className="card"
               style={{
                 backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), url(${festival.imagemFundo})`,
@@ -40,7 +41,7 @@ export default () => {
                   <p>{festival.desc}</p>
                 </div>
               </div>
-            </div>
+            </div></Link>
           </SwiperSlide>
         ))}
     </Swiper>
